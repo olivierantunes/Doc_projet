@@ -1,0 +1,133 @@
+\documentclass{report}
+
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[francais]{babel}
+
+\title{Documentation techniques}
+\author{Olivier ANTUNES, Jean GERVOSON, Loic PLARD}
+\date{20 janvier 2013}
+
+
+\begin{document}
+
+\part{Partie 1} 
+\chapter{Analyse Fonctionnelle}
+\section{But du document}
+Ce document prÃ©sente l analyse fonctionnelle de l application rÃ©alisÃ©e dans le cadre du projet du second semestre de M1.
+ 
+\section{Contexte}
+De nos jours, de plus en plus de monde veut Ãªtre prÃ©sent sur internet. De la simple personne individuelle au grand commerce tout le monde veut avoir son site web personnalisÃ©.
+
+
+Les structures importantes ont les moyens de dÃ©velopper cela en interne ou via des prestataires externes, mais les autres plus restreintes au niveau de leur budget doivent passer par des logiciels de crÃ©ation de site.
+
+La Junior-Entreprise de l'Ã©cole pourrait Ãªtre intÃ©ressÃ©e par un outil comme celui-ci. En effet, la majoritÃ© des demandes reÃ§ue par Junior Sudria concerne la crÃ©ation de sites vitrines.
+
+\section{Objectifs}
+L objectif de notre projet est de crÃ©er une interface logicielle qui aura pour but de fournir Ã  l'utilisateur des outils d aide Ã  la crÃ©ation de pages web.
+
+Les pages gÃ©nÃ©rÃ©es seront compatibles avec tous les supports (tous navigateurs, smartphone, tablettes etc.)
+
+L ergonomie de l outil est une prioritÃ©, il doit Ãªtre facilement utilisable par des utilisateurs n'ayant aucune connaissances techniques. L interface doit Ãªtre simple et intuitive.
+
+\section{PÃ©rimÃ¨tre}
+?????
+=> Nous ne savons pas quoi mettre dans cette partie
+
+\section{Les acteurs}
+
+On peut dÃ©finir plusieurs acteurs:
+
+
+\begin{itemize}
+\item L'administrateur
+\item Le visiteur
+\end{itemize}
+
+
+\subsection{L'administrateur}
+L'administrateur est dÃ©fini comme l'utilisateur qui crÃ©e le site. Il a les droits les plus importants sur le site, ainsi il peut:
+
+\begin{itemize}
+\item Changement du fond et de la forme du site,
+\item Supprimer le site,
+\end{itemize}
+
+
+A noter : Il peut y avoir plusieurs administrateurs pour un site web, dans ce cas il y aura toujours un "super-administrateur" qui sera le seul Ã  pouvoir supprimer le site.
+% trouver comment faire un un petit panneau "attention"
+
+\subsection{Le visiteur}
+Il s'agit de la personne qui consulte le site depuis son navigateur web habituel. Il ne dispose que d'un droit de consultation du contenu publiÃ© sur le site.
+
+\section{Concepts Importants}
+\
+\subsubsection{Fonctionnement des droits des acteurs}
+InsÃ©rer ici les schÃ©ma fait avec Loic.
+\subsubsection{PremiÃ¨re Utilisation}
+\subsubsection{AccÃ¨s administrateur}
+
+\subsubsection{SchÃ©ma UML de la BDD}
+A faire par Olivier
+
+\part{Dossier des spÃ©cificitÃ©s}
+\chapter{Introduction}
+
+\section{Contexte}
+De nos jours, de plus en plus de monde veut Ãªtre prÃ©sent sur internet. De la simple personne individuelle au grand commerce tout le monde veut avoir son site web personnalisÃ©.
+
+Les structures importantes ont les moyens de dÃ©velopper cela en interne ou via des prestataires externes, mais les autres plus restreintes au niveau de leur budget doivent passer par des logiciels de crÃ©ation de site.
+
+\section{Existant}
+Il  existe  sur  le  marchÃ©  de  nombreux  logiciels  qui  permettent  de crÃ©er des sites web facilement et rapidement comme wix.com ou Dreamweaver.
+
+NÃ©anmoins, la plupart ne permettent pas de rÃ©cupÃ©rer un code propre et rÃ©utilisable sur tous les hÃ©bergeurs. 
+La propretÃ© du code est importante en raison de l indexation par les moteurs de recherches.
+
+\section{Objectifs}
+L objectif de notre projet est de crÃ©er une interface logicielle qui aura pour but de fournir Ã  l acteur des outils d aide Ã  la crÃ©ation de pages web.
+Les pages gÃ©nÃ©rÃ©es seront compatibles avec tous les supports (tous navigateurs, smartphone, tablettes etc.)
+
+L ergonomie de l outil est une prioritÃ©, il doit Ãªtre facilement utilisable par Mme Michu . L interface doit Ãªtre simple et intuitive.
+
+
+
+
+\chapter{PrÃ©sentation}
+
+\section{Acteurs}
+Il n'y qu'un seul acteur, l'utilisateur de l'outil.
+
+\section{FonctionnalitÃ©s}
+\begin{itemize}
+
+
+\item Choisir un modÃ¨le de site parmi 2 ou 3,
+\item Choisir un fond d Ã©cran
+\item Proposer d insÃ©rer du texte/image
+\item Proposer d insÃ©rer un lien vidÃ©o
+\end{itemize}
+
+\section{Axes d amelioration}
+\begin{enumerate}
+
+\item Ajouter de nouveaux modÃ¨les,
+\item Customiser les modÃ¨les existants,
+\item Permettre Ã  luser de crÃ©er ses propres modÃ¨les,
+\item CrÃ©er une FAQ,
+\item Statistiques
+
+
+\end{enumerate}
+
+\part{Analyse Organique}
+
+\chapter{Chapt 1}
+
+
+
+
+
+\end{document}
